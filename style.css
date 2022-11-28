@@ -1,6 +1,6 @@
 html {
     font-size: 60%;
-    font-family: "Optima";
+    font-family: "Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif";
 
     box-sizing: border-box;
     background-color: rgb(13, 13, 13);
@@ -18,7 +18,11 @@ p {
 
 a {
     text-decoration: none;
-    color:rgb(145, 145, 191)
+    color:rgb(145, 145, 191);
+}
+
+a:hover {
+    color:rgb(181, 181, 226);
 }
 
 #boidsApp {
